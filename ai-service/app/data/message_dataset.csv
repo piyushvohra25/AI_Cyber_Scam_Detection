@@ -1,0 +1,16 @@
+text,label,scam_type
+"Congratulations! You won a lottery prize. Send your bank details to claim now.",1,lottery
+"Your account has been blocked. Verify your OTP immediately to restore banking access.",1,otp
+"Earn 5000 dollars weekly from home. Limited job offer, register with your card details.",1,job
+"Urgent: Your KYC expired. Click the banking link and enter credentials to avoid suspension.",1,banking
+"Your parcel will arrive tomorrow. Contact support if you need to reschedule.",0,legitimate
+"Team meeting has moved to 3 PM today. Please confirm attendance.",0,legitimate
+"Your salary has been credited successfully. Review the payslip in the HR portal.",0,legitimate
+"Welcome to the company. Complete your onboarding documents this week.",0,legitimate
+"Final warning! Your ATM card will be disabled. Share the one-time password now.",1,otp
+"Exclusive investment scheme guarantees high returns. Register urgently with your account number.",1,banking
+"Your friend shared travel photos from the weekend trip.",0,legitimate
+"Update your job profile to access new openings on the internal portal.",0,legitimate
+"We noticed unusual banking activity. Confirm your password and PIN immediately.",1,banking
+"You have been shortlisted for an overseas job. Pay the processing fee tonight.",1,job
+"Claim your cashback reward by confirming your debit card number now.",1,lottery
