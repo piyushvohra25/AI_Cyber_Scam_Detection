@@ -1,6 +1,6 @@
 # AI-Powered Cyber Scam Detection and Threat Analysis System
 
-Production-ready MERN + AI microservice project for scam message detection, phishing URL analysis, explainable reasoning, and graph-based phishing traversal.
+AI project for scam message detection, phishing URL analysis, explainable reasoning, and graph-based phishing traversal.
 
 ## Architecture
 
@@ -16,12 +16,6 @@ Production-ready MERN + AI microservice project for scam message detection, phis
 - BFS and DFS phishing network exploration from a mock graph dataset
 - MongoDB storage of all message and URL analyses
 - Responsive dashboard with risk meters, keyword highlighting, and graph views
-
-## Prerequisites
-
-- Node.js 20+
-- Python 3.11+
-- MongoDB running locally or via MongoDB Atlas
 
 ## Environment Setup
 
@@ -84,30 +78,6 @@ npm run dev
 ```
 
 The frontend runs on `http://localhost:5173`, the Node API on `http://localhost:5000`, and the AI service on `http://localhost:8000`.
-
-## API Overview
-
-### Node API
-
-- `POST /api/analyze-message`
-- `POST /api/analyze-url`
-- `GET /api/health`
-
-### AI Service
-
-- `GET /health`
-- `POST /predict-message`
-- `POST /predict-url`
-
-## Sample Inputs
-
-### Message
-
-`Congratulations! Your bank account has been suspended. Verify your OTP now to avoid closure.`
-
-### URL
-
-`http://secure-login-verify-bank.example-alert.com/update`
 
 ## Notes
 
